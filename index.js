@@ -24,7 +24,7 @@ function iLoveTheBeatles(n) {
   const blank = []
 
   do {
-    arr.push('I love the Beatles!')
+    blank.push('I love the Beatles!')
     n++
   } while (n < 15)
 
