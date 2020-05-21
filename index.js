@@ -1,27 +1,32 @@
-// add solution here
-
-function theBeatlesPlay (musicians, instruments){
+function theBeatlesPlay(musicians, instruments) {
   const blank = []
 
-  for (let i = 0, l = musicians.length; i < l; i++){
+  for (let i = 0, l = musicians.length; i < l; i++) {
     blank.push(`${musicians[i]} plays ${instruments[i]}`)
   }
-  return blank
+
+  return arr
 }
 
-function johnLennonFacts(facts){
+function johnLennonFacts(facts) {
   const shoutedFacts = []
+
   let i = 0
   while (i < facts.length) {
     shoutedFacts.push(`${facts[i]}!!!`)
-  }  return shoutedFacts
+    i++
+  }
+
+  return shoutedFacts
 }
 
 function iLoveTheBeatles(n) {
   const blank = []
+
   do {
     arr.push('I love the Beatles!')
     n++
   } while (n < 15)
+
   return blank
 }
