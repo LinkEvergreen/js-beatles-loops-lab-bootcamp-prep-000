@@ -5,7 +5,7 @@ function theBeatlesPlay(musicians, instruments) {
     blank.push(`${musicians[i]} plays ${instruments[i]}`)
   }
 
-  return arr
+  return blank
 }
 
 function johnLennonFacts(facts) {
